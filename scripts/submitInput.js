@@ -1,4 +1,4 @@
- function submitTask() {
+function submitTask() {
     let input = document.querySelector('.input')
     let header = document.querySelector('.header');
     let inputField = document.querySelector('.input__field');
@@ -6,9 +6,9 @@
 
     header.insertAdjacentHTML("afterend", '    <div class="task">\n' +
         '        <div class="task__text">Cleaning dinner room</div>\n' +
-        '        <div class="task__done">\n' +
+        '        <button class="task__done" onclick="doTask()">\n' +
         '            <img src="img/tick.svg" alt="tick" class="task__done-img">\n' +
-        '        </div>\n' +
+        '        </button>\n' +
         '    </div>');
     let taskText = document.querySelector('.task__text');
     taskText.innerHTML = inputField.value;

@@ -58,6 +58,10 @@ html {
   border-radius: 12px;
   box-shadow: 0 2px 5px #C7C7C7;
   margin-bottom: 15px;
+
+  &__label {
+    display: none;
+  }
   &__field {
     flex: 0 0 80%;
     height: 40px;

@@ -54,6 +54,9 @@ html {
   box-shadow: 0 2px 5px #C7C7C7;
   margin-bottom: 15px;
 }
+.input__label {
+  display: none;
+}
 .input__field {
   flex: 0 0 80%;
   height: 40px;

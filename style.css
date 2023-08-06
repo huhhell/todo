@@ -37,6 +37,12 @@ html {
   background-color: transparent;
   cursor: pointer;
 }
+.header__create-button {
+  background-color: transparent;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
 
 .input {
   display: flex;
@@ -61,6 +67,9 @@ html {
 .input__button {
   background-color: transparent;
   border: none;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
 }
 .task {
   display: flex;
@@ -72,6 +81,7 @@ html {
   -webkit-border-radius: 12px;
   -moz-border-radius: 12px;
   border-radius: 12px;
+  margin-bottom: 15px;
 }
 .task__text {
   font-size: 20px;
